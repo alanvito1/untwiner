@@ -11,19 +11,6 @@ log = logging.getLogger(__name__)
 
 
 def is_html(s: str) -> bool:
-    # from bs4 import BeautifulSoup
-    # bool(BeautifulSoup(html, "html.parser").find())
-    # True
-    # bool(BeautifulSoup(non_html, "html.parser").find())
-    # False
-
-    # import lxml.html
-    # html = 'Hello, <b>world</b>'
-    # non_html = "<ht fldf d><"
-    # lxml.html.fromstring(html).find('.//*') is not None
-    # True
-    # lxml.html.fromstring(non_html).find('.//*') is not None
-    # False
     return lxml.html.fromstring(s).find('.//*') is not None
 
 

@@ -1,4 +1,4 @@
-# untwiner
+# Untwiner
 
 This is a simple Python package for loading and navigating [Twine 2](https://twinery.org/) story files.
 
