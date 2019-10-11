@@ -17,4 +17,19 @@ setup(
         'lxml',
         'beautifulsoup4',
     ],
+    include_package_data=False,
+    classifiers=[
+        'Development Status :: 2 - Pre-Alpha',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: Apache Software License',
+        'Natural Language :: English',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Environment :: Other Environment',
+        'Operating System :: OS Independent',
+        'Topic :: Software Development',
+        'Topic :: Software Development :: Libraries'
+    ]
 )
